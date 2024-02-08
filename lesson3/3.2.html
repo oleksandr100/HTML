@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        #blue{
+            background-color: dodgerblue;
+        }
+        #green{
+            background-color: lawngreen;
+        }
+        #one{
+            background-color: crimson;
+        }
+        .head{
+            padding-top: 20vh;
+            font-size:80px;
+        }
+        a{
+            display: flex;
+            color: black;
+            text-decoration: none;
+            justify-content: center;
+        }
+        .text{
+            padding-top: 5vh;
+            padding-bottom: 15vh;
+            font-size: 40px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<section ID="one">
+    <div class="Head">
+        <span>lorem ipsum</span>
+    </div>
+    <div class="text">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad incidunt iure laborum quis quos repudiandae, tenetur. Accusamus atque beatae, commodi consectetur ipsam laborum minus mollitia necessitatibus non qui quo ut. </span>
+    </div>
+    <div class="arrow-down">
+        <a href="#blue">&#8595</a>
+    </div>
+</section>
+<section id="blue">
+    <div class="arrow-up">
+        <a href="#one">&#8593</a>
+    </div>
+    <div class="head">
+        <span> lorem ipsum </span>
+    </div>
+    <div class="text">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad animi asperiores consequatur cumque cupiditate, deleniti ea, exercitationem ipsam, maxime minima minus nobis nulla optio quasi quibusdam sunt ut voluptas.</span>
+    </div>
+    <div class="arrow-down">
+        <a href="#green">&#8595</a>
+    </div>
+</section>
+<section id="green">
+    <div class="arrow-up">
+        <a href="#blue">&#8593</a>
+    </div>
+    <div class="head">
+        <span>lorem ipsum</span>
+    </div>
+    <div class="text">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est libero minima nihil pariatur quibusdam? Aliquid architecto beatae doloribus ipsam nam perferendis placeat provident. Accusamus blanditiis, exercitationem natus odio quas totam!</span>
+    </div>
+
+</section>
+
+</body>
+</html>
