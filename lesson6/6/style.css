@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+header, footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: aqua;
+}
+div{
+    display: flex;
+}
+main{
+    width: 60vw;
+    height: 60vh;
+    background-color: aquamarine;
+}
+section{
+    width: 40vw;
+    height: 60vh;
+    background-color: chartreuse;
+}
+@media screen and (min-width: 300px) and (min-width: 500px){
+    header, footer{
+        height: 15vh;
+    }
+    div{
+        flex-direction: column;
+    }
+    main, section{
+        width: 100vw;
+    }
+
+}
